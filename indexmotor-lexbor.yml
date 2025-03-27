@@ -1,0 +1,4 @@
+lexbor_project:
+  url_inspect: "https://github.com/lexbor/lexbor"
+  changelog: "https://github.com/Azccriminal/index-motor/log-change.l"
+  configfile: "lexbor/source/html/buildbase.cfg"

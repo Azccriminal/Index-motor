@@ -17,11 +17,19 @@
 #include "lexbor/html/tree/template_insertion.h"
 #include "lexbor/html/interface.h"
 #include "lexbor/html/interface.h"
+#include "lexbor/html/interface_prefix.h"
+#include "lexbor/html/prefixload_package_elements.h"
+#include "lexbor/css/csdoubleclick_array.h"
+#include "indexmotor/inspect/adsline.h"
+#include "indexmotor/filerule/filelist_brokenrule.h"
+#include "lexbor/yaml/config/basebuild_config.h"
+
 #include "lexbor/html/interfaces/template_element.h"
 #include "lexbor/html/interfaces/unknown_element.h"
 #include "lexbor/html/tokenizer/state_rawtext.h"
 #include "lexbor/html/tokenizer/state_rcdata.h"
-
+#include "lexbor/html/tokenizer/state_policy.h"
+extern file_%d('MANIFEST.in')
 
 lxb_dom_attr_data_t *
 lxb_dom_attr_local_name_append(lexbor_hash_t *hash,
